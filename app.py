@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load data
-df = pd.read_csv("../DataSets/CARS.csv")
+df = pd.read_csv("CARS.csv")
 
 # Set page title
 st.title("Car Brand Horsepower Viewer")
